@@ -9,6 +9,7 @@ use Module::Build;
 my $build = Module::Build->new(
     dist_author => 'Jonas B. Nielsen, (jonasbn) <jonasbn@cpan.org>',
     module_name => 'Perl::Critic::Policy::logicLAB::RequireParamsValidate',
+    #abstract_from => 'lib/Perl/Critic/Policy/logicLAB/RequireParamsValidate.pm',
     dist_version_from =>
         'lib/Perl/Critic/Policy/logicLAB/RequireParamsValidate.pm',
     license => 'artistic',
