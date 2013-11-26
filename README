@@ -1,1 +1,8 @@
-Experimental Perl::Critic policy
+NAME
+    Perl::Critic::Policy::logicLAB::RequireParamsValidate - simple policy
+    for enforcing use of Params::Validate
+
+AFFILIATION
+    This policy is a policy in the Perl::Critic::logicLAB distribution. The
+    policy is themed: logiclab.
+
