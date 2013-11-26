@@ -71,3 +71,15 @@ sub _assert_params_validate {
 1;
 
 __END__
+
+=head1 NAME
+
+Perl::Critic::Policy::logicLAB::RequireParamsValidate - simple policy for enforcing use of Params::Validate
+
+=head1 AFFILIATION 
+
+This policy is a policy in the Perl::Critic::logicLAB distribution. The policy
+is themed: logiclab.
+
+=cut
+
