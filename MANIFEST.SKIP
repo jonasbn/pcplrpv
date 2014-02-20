@@ -71,3 +71,6 @@
 
 # Avoid archives of this distribution
 \bPerl-Critic-Policy-logicLAB-RequireParamsValidate-[\d\.\_]+
+
+# Github - Travis integration
+\.travis\.yml
