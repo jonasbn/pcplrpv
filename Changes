@@ -1,0 +1,11 @@
+Changes file for Perl::Critic::Policy::logicLAB::RequireParamsValidate
+
+$Id$
+
+Project change log:
+
+http://logiclab.jira.com/browse/PCPLRPV#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel
+
+0.01 2014-02-28
+
+- Initial release

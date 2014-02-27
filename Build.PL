@@ -12,7 +12,7 @@ my $build = Module::Build->new(
     #abstract_from => 'lib/Perl/Critic/Policy/logicLAB/RequireParamsValidate.pm',
     dist_version_from =>
         'lib/Perl/Critic/Policy/logicLAB/RequireParamsValidate.pm',
-    license => 'artistic',
+    license => 'artistic_2',
 #REF: http://logicLAB.jira.com/wiki/display/OPEN/Module-Build#Module-Build-AutogeneratetheMakefile.PLforbackwardscompatibility
     create_makefile_pl   => 'traditional',
     create_readme        => 1,
