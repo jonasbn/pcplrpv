@@ -87,29 +87,44 @@ This documentation describes version 0.01.
 
 =head1 SYNOPSIS
 
-Your code:
+    # ok
+    sub foo {
+        validate(
+            @_, {
+                foo => 1,    # mandatory
+                bar => 0,    # optional
+            }
+        );
 
-    package This::Is::A::Test;
+        #...
+    }
 
-        # code goes here
+    # not ok
+    sub bar {
+        return 1;
+    }
 
-    1;
+    # ok
+    sub _baz {
+        return 1;
+    }
+
 
 Invocation of policy:
 
-    $ perlcritic --single-policy logicLAB::RequirePackageNamePattern lib
+    $ perlcritic --single-policy logicLAB::RequireParamsValidate lib
 
 Explanation:
 
-    Use specified requirement for package naming for This::Is::A::Test
+    Use Params::Validate for public facing APIs
 
 Description:
 
-    Package name: This::Is::A::Test is not complying with required standard
+    Parameter validation not complying with required standard
 
 =head1 CONFIGURATION AND ENVIRONMENT
 
-No special requirements or environemtn required.
+No special requirements or environment required.
 
 =head1 DEPENDENCIES AND REQUIREMENTS
 
