@@ -17,11 +17,13 @@ my $build = Module::Build->new(
     create_makefile_pl   => 'traditional',
     create_readme        => 1,
     recursive_test_files => 1,
+    configure_requires => { 'Module::Build' => '0.40' },
     requires             => {
         'List::MoreUtils'      => '0',
         'Params::Validate'     => '0',
         'Perl::Critic::Policy' => '0',
         'Perl::Critic::Utils'  => '0',
+        'perl'                 => '5.6.0',
     },
     build_requires => {
         'File::Spec'          => '0',    #core
