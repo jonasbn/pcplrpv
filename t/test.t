@@ -75,7 +75,7 @@ foreach my $violation (@violations) {
         q{Parameter validation not complying with required standard} );
 }
 
-if ($TEST_VERBOSE) {
-    diag Dumper \@violations;
-}
+#if ($TEST_VERBOSE) {
+#    diag Dumper \@violations;
+#}
 
