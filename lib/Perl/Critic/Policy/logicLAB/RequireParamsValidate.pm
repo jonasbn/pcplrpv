@@ -11,7 +11,7 @@ use List::MoreUtils qw(any);
 
 use 5.006;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 Readonly::Scalar my $EXPL => q{Use Params::Validate for public facing APIs};
 Readonly::Scalar my $warning =>
