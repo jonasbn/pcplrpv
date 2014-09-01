@@ -72,6 +72,16 @@ sub _assert_params_validate {
 
 __END__
 
+=pod
+
+=begin markdown
+
+[![CPAN version](https://badge.fury.io/pl/Perl-Critic-Policy-logicLAB-RequireParamsValidate.svg)](http://badge.fury.io/pl/Perl-Critic-Policy-logicLAB-RequireParamsValidate)
+[![Build Status](https://travis-ci.org/jonasbn/pcplrpv.svg?branch=master)](https://travis-ci.org/jonasbn/pcplrpv)
+[![Coverage Status](https://coveralls.io/repos/jonasbn/pcplrpv/badge.png)](https://coveralls.io/r/jonasbn/pcplrpv)
+
+=end markdown
+
 =head1 NAME
 
 Perl::Critic::Policy::logicLAB::RequireParamsValidate - simple policy for enforcing use of Params::Validate
