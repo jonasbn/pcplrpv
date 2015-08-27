@@ -11,7 +11,7 @@ use List::MoreUtils qw(any);
 
 use 5.006;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 Readonly::Scalar my $EXPL => q{Use Params::Validate for public facing APIs};
 Readonly::Scalar my $warning =>
@@ -94,7 +94,7 @@ is themed: logiclab.
 
 =head1 VERSION
 
-This documentation describes version 0.01.
+This documentation describes version 0.03
 
 =head1 SYNOPSIS
 
@@ -238,7 +238,7 @@ Perl::Critic
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (c) 2013-2014 Jonas B. Nielsen, jonasbn. All rights reserved.
+Copyright (c) 2013-2015 Jonas B. Nielsen, jonasbn. All rights reserved.
 
 Perl::Critic::Policy::logicLAB::RequirePackageNamePattern;  is released under
 the Artistic License 2.0
