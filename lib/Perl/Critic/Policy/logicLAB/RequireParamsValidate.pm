@@ -15,7 +15,7 @@ our $VERSION = '0.02';
 
 Readonly::Scalar my $EXPL => q{Use Params::Validate for public facing APIs};
 Readonly::Scalar my $warning =>
-    q{Parameter validation not complying with required standard};
+  q{Parameter validation not complying with required standard};
 
 use constant supported_parameters => ();
 use constant default_severity     => $SEVERITY_MEDIUM;
@@ -26,8 +26,8 @@ use constant default_themes       => qw(logiclab);
 sub applies_to {
     return (
         qw(
-            PPI::Statement::Sub
-            )
+          PPI::Statement::Sub
+          )
     );
 }
 
@@ -63,7 +63,8 @@ sub _assert_params_validate {
 
     if ($ok) {
         return;
-    } else {
+    }
+    else {
         return $self->violation( $warning, $EXPL, $elem );
     }
 }
